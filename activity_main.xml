@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmlna="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1EAF3">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text="登 录 界 面"
+        android:textColor="#232121"
+        android:textSize="40dp"
+        android:gravity="center">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1EAF3"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_marginLeft="5dip"
+                android:textSize="23dip"
+                android:gravity="center_vertical"
+                android:background="#F0E1F3"
+                android:text="用户名：">
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditTextuid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_marginLeft="0dip"
+                android:text="1234567"
+                android:textSize="23dip">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_marginLeft="5dip"
+                android:textSize="23dip"
+                android:gravity="center_vertical"
+                android:background="#F0E1F3"
+                android:text="密     码：">
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditTextPwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="LING"
+                android:textSize="23dip">
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/loginLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dip"
+                android:background="#E8CCEA"
+                android:layout_weight="1"
+                android:text="登   录">
+            </Button>
+
+            <Button
+                android:id="@+id/loginClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dip"
+                android:background="#D1B8D3"
+                android:layout_weight="1"
+                android:text="清   空">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
